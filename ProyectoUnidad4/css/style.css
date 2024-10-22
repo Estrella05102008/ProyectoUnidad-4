@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+
+nav {
+    background-color: palevioletred;
+    position: fixed;
+    width: 100%;
+}
+
+nav .logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+nav .logo img {
+    height: 70px;
+    width: auto;
+}
